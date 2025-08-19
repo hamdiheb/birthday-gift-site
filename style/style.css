@@ -1,0 +1,115 @@
+#img {
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #EFB0C9;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(blue,pink);
+    color: white;
+    font-family: orbitron;
+}
+
+#bdate, #bage {
+    text-shadow: 0px 0px 1px black;
+    background-color:gray;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+#bdate {
+    margin-top: -10px;
+}
+
+#gif-img {
+    width: 400px;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.gift_title, .gift_title_hover {
+    text-shadow: 0px 0px 2px black;
+    background-color: #EFB0C9;
+}
+
+.gift-img {
+    border: 10px solid white;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+}
+
+#first_gif {
+    background-image: url(/img/gift-cover.jpg);
+    background-size: cover;
+}
+
+
+#first_gif:hover {
+    background-image: url("/img/Happy\ Sesame\ Street\ GIF\ by\ Muppet\ Wiki.gif");
+}
+
+#second_gif {
+    background-image: url(/img/gift-cover.jpg);
+    background-size: cover;
+}
+
+#second_gif:hover {
+    background-image: url(/img/Amaze\ GIF.gif);
+}
+
+#third_gif {
+    background-image: url(/img/gift-cover.jpg);
+    background-size: cover;
+}
+
+#third_gif:hover {
+    background-image: url(/img/You\ Are\ Amazing\ GIF\ by\ moodman.gif);
+}
+
+#fourth_gif {
+    background-image: url(/img/gift-cover.jpg);
+    background-size: cover;
+}
+
+#fourth_gif:hover {
+    background-image: url(/img/jean\ claude\ van\ damme\ GIF.gif);
+}
+
+.last-gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.gift-img-last {
+    width: 600px;
+    height: 300px;
+    border: 9px solid white;
+    border-radius: 20px;
+    background-image: url("/img/gift-cover.jpg");
+    background-size: cover;
+}
+
+.footer_paragraph {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-style: italic;
+}
+
+.footer_link {
+    color: white;
+}
